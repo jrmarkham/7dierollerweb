@@ -103,7 +103,7 @@ class _MainDisplayState extends State<MainDisplay> {
                             ),
                           ),
                           RaisedButton(
-                            child: Text(buttonText),
+                            child: Text(buttonText, style:TextStyle(fontFamily:'Roboto', color: _locked ? Colors.black12 : Colors.white)),
                             color: _locked ? Colors.white12 : Colors.green,
                             onPressed: buttonFunction,
                           )

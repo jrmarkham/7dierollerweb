@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
             appBar: AppBar(
               centerTitle: true,
               backgroundColor: Colors.green,
-              title: Text('5 of 7 DIE ROLLER'),
+              title: Text('5 of 7 DIE ROLLER', style:TextStyle(fontFamily:'Roboto', color: Colors.white)),
               ),
             body:  MainDisplay()));
   }
